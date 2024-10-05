@@ -1,0 +1,91 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+.pyenv/
+.pipenv/
+poetry.lock
+poetry.toml
+
+# Flask / API related files
+instance/
+*.db
+*.sqlite3
+*.sqlite
+*.bak
+*.log
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+*.swp
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# MyPy, Pyright, and other static analysis tools
+.mypy_cache/
+.pyright_cache/
+.dmypy.json
+dmypy.json
+.mypy_cache/
+.pyre/
+
+# Docker
+Dockerfile
+docker-compose.yml
+*.dockerignore
+
+# Other IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# PyInstaller
+*.spec
+*.exe
+*.dll
+*.so
+*.dylib
+build/
+
+# Flask API server-specific
+flask_process.pid
